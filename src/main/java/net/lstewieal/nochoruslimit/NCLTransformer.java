@@ -15,7 +15,6 @@ public class NCLTransformer implements IClassTransformer
 
     /* net.minecraft.block.BlockChorusFlower */
     private static final String blockChorusFlowerClassNameO = "apj";
-    private static final String blockChorusFlowerJavaClassNameO = "apj";
 
     /* placeDeadFlower / func_185605_c */
     private static final String blockChorusFlowerTargetMethodNameO = "c";
@@ -26,7 +25,6 @@ public class NCLTransformer implements IClassTransformer
 
     /* MCP Names for BlockChorusFlower Transformation */
     private static final String blockChorusFlowerClassName = "net.minecraft.block.BlockChorusFlower";
-    private static final String blockChorusFlowerJavaClassName = "net/minecraft/block/BlockChorusFlower";
 
     private static final String blockChorusFlowerTargetMethodName = "placeDeadFlower";
 
