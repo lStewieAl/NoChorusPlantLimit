@@ -102,6 +102,8 @@ public class NCLTransformer implements IClassTransformer
                         break;
                     }
                 }
+                /* don't need to search other methods if target method was found */
+                break;
             }
         }
 
